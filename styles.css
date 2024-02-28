@@ -9,9 +9,7 @@ html{
     width: 100vw;
     height: 100%;
 }
-.container{
-    margin: auto;
-}
+
 img{
   width: 60%;
  margin: auto;
@@ -130,7 +128,6 @@ span{
     color: hsl(200.53,100%,62.75%);
 }
 .images{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,11 +166,8 @@ width: 80%;
     border: 1px solid red;
     flex-direction: column;
     margin: 40px auto;
-    padding: 10px;
-    height: 700px;
-}
-.main div{
-    height: 100%;
+    padding: 50px 10px;
+    height: auto;
 }
 .content{
     text-align: center;
@@ -209,49 +203,54 @@ width: 80%;
     margin-right: auto;
 }
 .content-2{
-    background-image: url(/background.webp);
-    width: 100%;
-    height:100%;
-    border-radius: 50%;
-    margin: auto;
+    background-image: url(./Assets/background.webp);
+    width: 250px;
+margin: auto;
+  border-radius: 50%;
+margin-right: 20px;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid black;
     margin-left: auto;
 }
-
 .image1{
-    width: 50%;
- margin: auto;
-    margin-left: -20px;
-    margin-bottom: -70px;
-    position: relative;
-    z-index: 999;
+   position: relative;
+   left:70px;
 
+}
+.image2{
+width: 140px;
+position: relative;
+top:100px;
+right: 30px;
+z-index: 999;
 }
 
 .image-2 img{
-    width: 80%;
-    margin: auto;
+    width: 50%;
     height: 100%;
-    display: block;
+    margin:auto ;
 }
+
+.content-7{
+    margin-top:50px;
+    text-align: center;
+}
+
 
 .content-8, .content-9{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    z-index: 999;
 }
 .content-8a{
 border-radius: 20px;
 box-shadow: .2px 1px;
 background-color: white;
-padding: 5% 10px;
+padding:10px;
 height: 400px;
 margin: 20px;
+width: 60%;
 
 }
 .content-8a h3{
@@ -280,6 +279,10 @@ margin: 20px;
 }
 .content-10{
     margin-top: 00px;
+}
+.content-3 img{
+    margin: auto;
+    display: block;
 }
 
 
@@ -327,6 +330,9 @@ margin: 20px;
 h1{
     width: 80%;
    }
+   .image2{
+    top:80px;
+   }
 }
 @media screen and (min-width: 768px)
 
@@ -354,9 +360,8 @@ h1{
          }
     .main{
     flex-direction: row;
-        height: 500px;
     }
-}
+
 h1{
     width: 70%;
     font-size: 40px;
@@ -366,22 +371,16 @@ h1{
     flex-direction: row;
 }
 
-    /* confirm the screen sizes */
+
+
+h2{
+    font-size: 40px;
+   
+}
 .content-8a{
     width: 40%;
-    height: 400px;
     margin: 20px;
-}
-h2{
-    font-size: 50px;
-   
-}
-.content-8a{
-   
-    padding: 10px 10px 20px 10px;
-    /* width: 60%; */
     height: 500px;
-    margin: 20px;
     padding: 10px 50px;
     
     }
@@ -409,7 +408,23 @@ h2{
     .content10{
         height: 500px;
     }
-    /* Stop here */
+.main-6{
+    padding-top: 300px;
+}
+.content-2{
+    width: 400px;
+}
+.image1{
+    left: 40px;
+ margin: 0;
+ }
+ .image2{
+ top:100px;
+margin: 0;
+
+ }
+
+}
 
 @media screen and (min-width:1024px) {
     .display-none{
@@ -448,7 +463,6 @@ h2{
 .paragraph1{
     padding: 10px; 
     width: 40%;
-    border: 1px solid black;
     margin: auto;
     font-size: 21px;
 }
@@ -464,4 +478,14 @@ h2{
 .main img{
 width: 300px;
 }
+.image1{
+    position: relative;
+    left:50px;
+ }
+ .image2{
+ width: 200px;
+ position: relative;
+ top:150px;
+ right: 180px;
+ }
 }
